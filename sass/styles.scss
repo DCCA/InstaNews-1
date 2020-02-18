@@ -1,0 +1,75 @@
+/*
+* Define Partials
+*/
+@import 'normalize';
+@import 'variables';
+@import 'mixins';
+
+// Variable declarations
+$text-color: white;
+$background-color: black;
+// $font:
+$font-size: 1rem;
+
+// Image Width
+$mobile-img-width: 100%;
+$tablet-img-width: 33.33%;
+$desktop-img-width: 25%;
+
+// Device Width
+$tablet-width: 768px;
+$desktop-width: 1240px;
+
+body {
+    background: black;
+    color: $text-color;
+    justify-content: center;
+}
+
+header {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+p {
+    text-align: center;
+}
+
+#ajax-btn {
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    text-align: center;
+    width: $mobile-img-width;
+    height: 300px;
+    background-size: cover;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.copyright-logo {
+    width: 20px;
+    margin: 5px;
+}
+

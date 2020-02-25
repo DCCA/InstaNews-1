@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./build/css/styles.min.css" />
+    <title>InstaNews</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./build/css/styles.min.css">
-    <title> InstaNews </title>
-</head>
-
-<body>
+  <body>
     <header>
-        <!-- Logo -->
-        <img class="instanews-logo" src="assets/images/nyt-logo.svg" alt="InstaNews Logo" />
-        <!-- Choose a section: -->
-        <p> Choose a section: </p>
-        <!-- Dropdown menu for: Home, Arts, Business, Sports, Technology, Fashion -->
-        <button id="ajax-btn"></button>
+      <!-- Logo -->
+      <img
+        class="instanews-logo"
+        src="assets/images/nyt-logo.svg"
+        alt="InstaNews Logo"
+      />
+      <!-- Choose a section: -->
+      <p>Choose a section:</p>
+      <select name="sections" id="sections" class="sections"> </select>
+      <!-- Dropdown menu for: Home, Arts, Business, Sports, Technology, Fashion -->
     </header>
 
     <article>
-        <ul class="article-section">
-            <!-- <li class="article"> </li> -->
-        </ul>
+      <ul class="article-section">
+        <!-- <li class="article"> </li> -->
+      </ul>
     </article>
 
     <footer>
-        <!-- Copyright Logo image + "Copyright 2019 INSTANEWS" -->
-        <img class="copyright-logo" src="assets/images/copyright-xxl.png" alt="Copyright Logo" /> Copyright 2019
-        INSTANEWS
+      <!-- Copyright Logo image + "Copyright 2019 INSTANEWS" -->
+      <img
+        class="copyright-logo"
+        src="assets/images/copyright-xxl.png"
+        alt="Copyright Logo"
+      />
+      Copyright 2019 INSTANEWS
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <script src="./build/js/main.min.js"></script>
-</body>
-
+  </body>
 </html>
